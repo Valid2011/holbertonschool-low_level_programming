@@ -1,17 +1,17 @@
-#include "main.h"  // Include the file that tells us about the _putchar function
+#include "main.h"
+
 
 int main(void)
 {
-    _putchar('_');
-    _putchar('p');
-    _putchar('u');
-    _putchar('t');
-    _putchar('c');
-    _putchar('h');
-    _putchar('a');
-    _putchar('r');
-    _putchar('\n');  // This prints a new line
+    char str[] = "_putchar";
+    int i;
 
-    return 0;  // Program ends
+    for (i = 0; str[i] != '\0'; i++)
+    {
+        _putchar(str[i]);
+    }
+    _putchar('\n');
+
+    return (0);
 }
 
