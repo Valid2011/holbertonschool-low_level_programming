@@ -1,12 +1,12 @@
-#include "main.h"  // Make sure this line is present
+#include "main.h"
 
 /**
- * main - check the code
+ * main - check the code.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-    print_alphabet();  // The function should now be recognized
+    print_alphabet_x10();
     return (0);
 }
