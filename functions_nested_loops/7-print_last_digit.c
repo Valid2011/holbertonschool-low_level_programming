@@ -11,6 +11,9 @@ int print_last_digit(int n)
     {
         n = -n;  /* Make the number positive if it is negative */
     }
-    _putchar('0' + (n % 10));  /* Print the last digit */
-    return (n % 10);  /* Return the last digit */
+    int last_digit = n % 10;  /* Get the last digit using modulus */
+    
+    _putchar('0' + last_digit);  /* Print the last digit by converting it to a character */
+    
+    return (last_digit);  /* Return the last digit */
 }
